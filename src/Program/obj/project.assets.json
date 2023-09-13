@@ -1,45 +1,60 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Library/1.0.0": {
+      "type": "project",
+      "path": "../Library/Library.csproj",
+      "msbuildProject": "../Library/Library.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Library >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\bmora\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\pompo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bmora\\OneDrive\\Escritorio\\C#\\Role_Play_G.18\\src\\Program\\Program.csproj",
+      "projectUniqueName": "c:\\Users\\pompo\\Desktop\\Programación 2\\Role_Play_G.18\\src\\Program\\Program.csproj",
       "projectName": "Program",
-      "projectPath": "C:\\Users\\bmora\\OneDrive\\Escritorio\\C#\\Role_Play_G.18\\src\\Program\\Program.csproj",
-      "packagesPath": "C:\\Users\\bmora\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bmora\\OneDrive\\Escritorio\\C#\\Role_Play_G.18\\src\\Program\\obj\\",
+      "projectPath": "c:\\Users\\pompo\\Desktop\\Programación 2\\Role_Play_G.18\\src\\Program\\Program.csproj",
+      "packagesPath": "C:\\Users\\pompo\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\pompo\\Desktop\\Programación 2\\Role_Play_G.18\\src\\Program\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\bmora\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\pompo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "c:\\Users\\pompo\\Desktop\\Programación 2\\Role_Play_G.18\\src\\Library\\Library.csproj": {
+              "projectPath": "c:\\Users\\pompo\\Desktop\\Programación 2\\Role_Play_G.18\\src\\Library\\Library.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -67,7 +82,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
