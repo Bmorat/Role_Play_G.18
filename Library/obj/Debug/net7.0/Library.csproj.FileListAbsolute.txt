@@ -10,3 +10,15 @@ C:\Users\alfon\OneDrive\Escritorio\P 2\Role PlayGame\PII_RoleplayGame_1_Start\sr
 C:\Users\alfon\OneDrive\Escritorio\P 2\Role PlayGame\PII_RoleplayGame_1_Start\src\Library\obj\Debug\net7.0\refint\Library.dll
 C:\Users\alfon\OneDrive\Escritorio\P 2\Role PlayGame\PII_RoleplayGame_1_Start\src\Library\obj\Debug\net7.0\Library.pdb
 c:\Users\alfon\OneDrive\Escritorio\P 2\Role PlayGame\PII_RoleplayGame_1_Start\src\Library\obj\Debug\net7.0\ref\Library.dll
+C:\Users\alfon\OneDrive\Escritorio\Role_Play_G.18\Library\obj\Debug\net7.0\Library.csproj.AssemblyReference.cache
+C:\Users\alfon\OneDrive\Escritorio\Role_Play_G.18\Library\obj\Debug\net7.0\Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alfon\OneDrive\Escritorio\Role_Play_G.18\Library\obj\Debug\net7.0\Library.AssemblyInfoInputs.cache
+C:\Users\alfon\OneDrive\Escritorio\Role_Play_G.18\Library\obj\Debug\net7.0\Library.AssemblyInfo.cs
+C:\Users\alfon\OneDrive\Escritorio\Role_Play_G.18\Library\obj\Debug\net7.0\Library.csproj.CoreCompileInputs.cache
+C:\Users\alfon\OneDrive\Escritorio\Role_Play_G.18\Library\obj\Debug\net7.0\Library.dll
+C:\Users\alfon\OneDrive\Escritorio\Role_Play_G.18\Library\obj\Debug\net7.0\refint\Library.dll
+C:\Users\alfon\OneDrive\Escritorio\Role_Play_G.18\Library\obj\Debug\net7.0\Library.pdb
+C:\Users\alfon\OneDrive\Escritorio\Role_Play_G.18\Library\bin\Debug\net7.0\Library.deps.json
+C:\Users\alfon\OneDrive\Escritorio\Role_Play_G.18\Library\bin\Debug\net7.0\Library.dll
+C:\Users\alfon\OneDrive\Escritorio\Role_Play_G.18\Library\bin\Debug\net7.0\Library.pdb
+C:\Users\alfon\OneDrive\Escritorio\Role_Play_G.18\Library\obj\Debug\net7.0\ref\Library.dll
