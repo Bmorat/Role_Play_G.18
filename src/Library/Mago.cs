@@ -7,46 +7,50 @@ namespace Role_Playgame
     {
               
         public string Nombre { get; set; }
-        public int Vida { get; set; }
-        public int Defensa {get ; set ;}
+        public int Salud { get; set; }
+        public int Armadura {get ; set ;}
         public int Ataque {get ; set ;}
-        public int Resistencia {get ; set ;}
-        public int Magia {get ; set ;}
-        private int VidaOriginal { get; set; }
+        private int SaludOriginal { get; set; }
         
 
 
         // Constructor
-        public Mago(string nombre, int vida, int defensa, int ataque, int resistencia, int magia)
+        public Mago(string nombre, int salud, int armadura, int ataque)
         {
             Nombre = nombre;
-            Vida = vida;
-            VidaOriginal = vida;
-            Defensa = defensa;
+            Salud = salud;
+            SaludOriginal = Salud;
+            Armadura = armadura;
             Ataque = ataque;
-            Resistencia = resistencia;
-            Magia = magia;
+            
+            
          }   
     
 
         public void Atacar(Mago NombreEnemigo)
         {
             Console.WriteLine($"{Nombre} esta atacando a {NombreEnemigo.Nombre}");
-            NombreEnemigo.Vida -= Ataque; 
+            NombreEnemigo.Salud -= Ataque; 
         }
 
-         public void Defensas()
+         public void Armaduras()
         {
-            Console.WriteLine($"{Nombre} esta usando Defensa");
-            Vida += (int)Defensa; 
+            Console.WriteLine($"{Nombre} esta usando Armadura");
+            Salud += (int)Armadura; 
+            if (Ataque < Armadura)
+            {
+                Salud = Salud;
+            }
+            else
+            {
+                Salud += (int)Armadura ;
+            }
         }
 
         public void Baston_magico()
         {
             Ataque *= 2 ;
-            Defensa*= 2 ;
-            Resistencia*=2;
-            Magia *=2;
+            Armadura*= 2 ;
             Console.WriteLine("Usando el Baston Magico,\n Poderes incrementados al doble ! ");
             
         }
@@ -59,7 +63,7 @@ namespace Role_Playgame
         public void Libro_hechizos()
         {
             //Lista de hechizos
-            //List hechizos = new List();
+            //
             List<string> miLista = new List<string>();
             miLista.Add("Nebulosa");
             miLista.Add("Encantos");
@@ -76,12 +80,12 @@ namespace Role_Playgame
         }
         public void Situacion()
         {
-            Console.WriteLine($"El mago {Nombre} tiene de vida {Vida} ");
+            Console.WriteLine($"El mago {Nombre} tiene de Salud {Salud} ");
         }
         public void Curar()
         {
-            Vida = VidaOriginal;
-            Console.WriteLine("Recupero toda su vida");
+            Salud = SaludOriginal;
+            Console.WriteLine("Recupero toda su Salud");
         }
 
     }   
